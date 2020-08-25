@@ -1,0 +1,8 @@
+def arrays(arr):
+    arr.reverse()
+    arr = numpy.array(arr, float)
+    return arr
+
+arr = raw_input().strip().split(' ')
+result = arrays(arr)
+print(result)
